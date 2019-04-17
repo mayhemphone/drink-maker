@@ -6,7 +6,7 @@ let express = require('express')
 let router = express.Router()
 
 // Reference the models
-let db = require('../models')
+// let db = require('../models')
 
 // GET /profile
 router.get('/', (req,res)=> {
@@ -14,4 +14,4 @@ router.get('/', (req,res)=> {
 })
 
 // EXPORT the routes form this file
-model.exports = router
+module.exports = router
